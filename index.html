@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Green Valley Farmhouse</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">Green Valley</div>
+
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#amenities">Amenities</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#booking">Booking</a></li>
+            </ul>
+
+            <button class="menu-btn" id="menuBtn">☰</button>
+        </nav>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <p class="small-title">WELCOME TO</p>
+            <h1>Green Valley<br>Farmhouse</h1>
+            <p>
+                Escape the city and enjoy peaceful moments
+                surrounded by nature.
+            </p>
+
+            <a href="#booking" class="btn">Book Your Stay</a>
+        </div>
+    </section>
+
+    <!-- About -->
+    <section class="about section" id="about">
+        <div class="about-image">
+            <img src="https://images.unsplash.com/photo-1564013799919-ab600027ffc6?auto=format&fit=crop&w=900&q=80"
+                 alt="Farmhouse">
+        </div>
+
+        <div class="about-content">
+            <p class="section-label">ABOUT US</p>
+            <h2>A Peaceful Escape Into Nature</h2>
+
+            <p>
+                Green Valley Farmhouse is a beautiful countryside
+                retreat designed for families, friends and couples.
+                Enjoy fresh air, greenery and a relaxing environment
+                away from the busy city.
+            </p>
+
+            <p>
+                Spend your day exploring the farm, enjoying delicious
+                food or simply relaxing under the open sky.
+            </p>
+
+            <a href="#booking" class="btn dark-btn">Reserve Now</a>
+        </div>
+    </section>
+
+    <!-- Amenities -->
+    <section class="amenities section" id="amenities">
+        <div class="section-heading">
+            <p class="section-label">OUR FACILITIES</p>
+            <h2>Farmhouse Amenities</h2>
+        </div>
+
+        <div class="amenity-grid">
+
+            <div class="amenity-card">
+                <div class="icon">🏊</div>
+                <h3>Swimming Pool</h3>
+                <p>Relax and enjoy our refreshing outdoor pool.</p>
+            </div>
+
+            <div class="amenity-card">
+                <div class="icon">🌳</div>
+                <h3>Nature Garden</h3>
+                <p>Beautiful green spaces perfect for relaxing.</p>
+            </div>
+
+            <div class="amenity-card">
+                <div class="icon">🔥</div>
+                <h3>Campfire</h3>
+                <p>Enjoy memorable evenings around a warm campfire.</p>
+            </div>
+
+            <div class="amenity-card">
+                <div class="icon">🍽️</div>
+                <h3>Farm Kitchen</h3>
+                <p>Fresh and delicious homemade meals for guests.</p>
+            </div>
+
+            <div class="amenity-card">
+                <div class="icon">📶</div>
+                <h3>Free Wi-Fi</h3>
+                <p>Stay connected whenever you need it.</p>
+            </div>
+
+            <div class="amenity-card">
+                <div class="icon">🚗</div>
+                <h3>Free Parking</h3>
+                <p>Safe and convenient parking for your vehicles.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Gallery -->
+    <section class="gallery section" id="gallery">
+        <div class="section-heading">
+            <p class="section-label">EXPLORE</p>
+            <h2>Our Gallery</h2>
+        </div>
+
+        <div class="gallery-grid">
+            <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=900&q=80" alt="Farmhouse">
+            <img src="https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=900&q=80" alt="Farmhouse interior">
+            <img src="https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=900&q=80" alt="Farmhouse room">
+            <img src="https://images.unsplash.com/photo-1600607688969-a5bfcd646154?auto=format&fit=crop&w=900&q=80" alt="Farmhouse">
+            <img src="https://images.unsplash.com/photo-1510798831971-661eb04b3739?auto=format&fit=crop&w=900&q=80" alt="Nature">
+            <img src="https://images.unsplash.com/photo-1473445361085-b9a07f55608b?auto=format&fit=crop&w=900&q=80" alt="Garden">
+        </div>
+    </section>
+
+    <!-- Booking -->
+    <section class="booking section" id="booking">
+        <div class="booking-container">
+
+            <div class="booking-text">
+                <p class="section-label">BOOK YOUR STAY</p>
+                <h2>Ready For A Peaceful Escape?</h2>
+                <p>
+                    Fill out the form and we'll get in touch with
+                    you to confirm your booking.
+                </p>
+
+                <div class="contact-info">
+                    <p>📍 Kerala, India</p>
+                    <p>📞 +91 98765 43210</p>
+                    <p>✉️ hello@greenvalley.com</p>
+                </div>
+            </div>
+
+            <form id="bookingForm">
+
+                <div class="form-group">
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" placeholder="Your name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" placeholder="Your email" required>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="checkin">Check-in</label>
+                        <input type="date" id="checkin" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="checkout">Check-out</label>
+                        <input type="date" id="checkout" required>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="guests">Number of Guests</label>
+                    <select id="guests">
+                        <option value="1">1 Guest</option>
+                        <option value="2">2 Guests</option>
+                        <option value="3">3 Guests</option>
+                        <option value="4">4 Guests</option>
+                        <option value="5">5+ Guests</option>
+                    </select>
+                </div>
+
+                <button type="submit" class="btn submit-btn">
+                    Check Availability
+                </button>
+
+                <p id="formMessage"></p>
+            </form>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <h2>Green Valley Farmhouse</h2>
+            <p>Peace • Nature • Memories</p>
+
+            <div class="socials">
+                <a href="#">Instagram</a>
+                <a href="#">Facebook</a>
+                <a href="#">WhatsApp</a>
+            </div>
+
+            <p class="copyright">
+                © 2026 Green Valley Farmhouse. All Rights Reserved.
+            </p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
